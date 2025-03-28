@@ -47,6 +47,9 @@ function takeCommand(message){
    if(message.includes("hello")||message.includes("hey")){
        speak("hello sir,what can i help you?")
    }
+   else if(message.includes("how are you")){
+    speak("I'm great,How about you?")
+}
    else if(message.includes("who are you")){
        speak("i am Bujji, your virtual assistant ,created by Samith s palan")
    }else if(message.includes("open youtube")){
@@ -86,5 +89,6 @@ function takeCommand(message){
        speak(finalText)
        window.open(`https://www.google.com/search?q=${message.replace("Bujji","")}`,"_blank")
    }
+   text.innerText="Click here to talk to me";
 }
 
