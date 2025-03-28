@@ -26,7 +26,7 @@ h1{
     color:rgb(12, 198, 240)
 }
 #voice{
-    width:150px;
+    width:80px;
     display:none;
 }
 #btn{
@@ -48,7 +48,7 @@ h1{
 #btn:hover{
     box-shadow:2px 2px 15px rgb(21,145,207),2px 2px 15px rgb(201,41,116);
     border: none;
-    font-size: larger;
+    font-size: x-large;
     cursor: pointer;
 }
 #mic{
