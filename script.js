@@ -13,8 +13,7 @@ function speak(text){
     text_speak.rate = 1;
     text_speak.pitch = 1;
     text_speak.volume = 1;
-    text_speak.lang = "hi-GB";
-    // window.speechSynthesis.resume();
+    text_speak.lang = "en-GB";
     window.speechSynthesis.speak(text_speak);
 }
 function wishMe(){
@@ -83,9 +82,9 @@ function takeCommand(message){
        speak(date)
      }
    else{
-       let finalText="this is what i found on internet regarding" + message.replace("shipra","") || message.replace("shifra","")
+       let finalText="this is what i found on internet regarding" + message.replace("Bujji","") 
        speak(finalText)
-       window.open(`https://www.google.com/search?q=${message.replace("shipra","")}`,"_blank")
+       window.open(`https://www.google.com/search?q=${message.replace("Bujji","")}`,"_blank")
    }
 }
 
